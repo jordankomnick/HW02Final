@@ -43,7 +43,7 @@ class HW02App : public AppBasic {
 	void draw();
 	void prepareSettings(Settings* settings);
 	
-  private:
+	private:
 	Surface* mySurface_;
 	uint8_t* dataArray_;
 	bool help_displayed_;
